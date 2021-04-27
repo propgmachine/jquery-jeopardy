@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <title>Jeoparody</title>
+    <title>Jeopardy</title>
     <meta name="description" content="Roughly 155 characters">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -11,18 +11,18 @@
     <body>
         <div class="app">
 
-        <!-- Top section -->
+        <!-- top header -->
             <header class="top-header">
-                <h1>Jeoparody</h1>
+                <h1>Jeopardy</h1>
                 <p class="score">Score <span class="score-count"></span></p>
             
             </header>
         
-        <!-- container for the board -->
+        <!-- board container -->
             <div class="board">
-                <!-- categories get injected here --> 
+                <!-- categories --> 
                 <div class="column">
-                    <header>video games</header>
+                    <header>History</header>
                     <ul>
                         <li>
                             <button data-clue-id="0-0">100</button>
@@ -42,62 +42,62 @@
                     </ul>
                 </div>
                 <div class="column">
-                    <header>3-letter animals</header>
+                    <header>Games</header>
                     <ul>
                         <li>
                             <button data-clue-id="0-0">100</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-1">100</button>
+                            <button data-clue-id="0-1">200</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-2">100</button>
+                            <button data-clue-id="0-2">300</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-3">100</button>
+                            <button data-clue-id="0-3">400</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-4">100</button>
+                            <button data-clue-id="0-4">500</button>
                         </li>
                     </ul>
                 </div>
                 <div class="column">
-                    <header>Geography</header>
+                    <header>Bad Movies</header>
                     <ul>
                         <li>
                             <button data-clue-id="0-0">100</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-1">100</button>
+                            <button data-clue-id="0-1">200</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-2">100</button>
+                            <button data-clue-id="0-2">300</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-3">100</button>
+                            <button data-clue-id="0-3">400</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-4">100</button>
+                            <button data-clue-id="0-4">500</button>
                         </li>
                     </ul>
                 </div>
                 <div class="column">
-                    <header>Science & Nature</header>
+                    <header>90's Music</header>
                     <ul>
                         <li>
                             <button data-clue-id="0-0">100</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-1">100</button>
+                            <button data-clue-id="0-1">200</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-2">100</button>
+                            <button data-clue-id="0-2">300</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-3">100</button>
+                            <button data-clue-id="0-3">400</button>
                         </li>
                         <li>
-                            <button data-clue-id="0-4">100</button>
+                            <button data-clue-id="0-4">500</button>
                         </li>
                     </ul>
                 </div>
@@ -105,11 +105,11 @@
                 
 
         
-        <!-- invisible container for the card prompt -->
+        <!-- container for card prompt -->
             <div class="card-modal">
                 <div class=card-modal-inner>
                     <h2 class="clue-text">
-                    <!-- clue gets injected here -->
+                    <!-- clue -->
                     </h2>
                     <form autocomplete="off">
                         <input name="user-answer" type="text" />
@@ -121,7 +121,7 @@
                         <p class="result_correct-answer">
                         "The correct answer is" 
                         <span class="result_correct-answer-text">
-                            <!--answer gets injected here-->
+                            <!--answer here-->
                         </span>
                         </p>
                     </div>

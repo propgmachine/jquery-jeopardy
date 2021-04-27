@@ -186,8 +186,7 @@ class TriviaGameShow {
 
 //-------------------------------------------------------------------------------------------------------------------
 
-  * @param {Array} a items An array containing the items.
-  */
+    * @param {Array} a items An array containing the items. */
 function shuffle(a) {
     var j, x, i;
     for (i = a.length - 1; i > 0; i--) {
